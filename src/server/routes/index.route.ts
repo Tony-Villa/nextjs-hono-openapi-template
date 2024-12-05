@@ -12,15 +12,15 @@ const router = createRouter().openapi(
     path: "/",
     responses: {
       [HttpStatusCodes.OK]: jsonContent(
-        createMessageObjectSchema("NextJS Hono Open API"),
-        "NextJS Hono Open API"
+        createMessageObjectSchema("Howdy from NextJS Hono Open API"),
+        "Howdy from NextJS Hono Open API"
       ),
     },
   }),
   (c) => {
     return c.json(
       {
-        message: "NextJS Hono Open API",
+        message: "Howdy from NextJS Hono Open API",
       },
       HttpStatusCodes.OK
     );
