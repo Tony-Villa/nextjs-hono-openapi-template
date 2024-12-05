@@ -1,3 +1,3 @@
 # Next Start
 
-A basic Next.js starter with sensible defaults for eslint, prettier, typescript and vscode.
+Both the NextJS base template and the Hono template were made by CJ from SyntaxFM. This template just smushes them together.
